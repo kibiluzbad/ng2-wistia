@@ -1,7 +1,6 @@
-# ng2-wistia
-
 [![Code Climate](https://codeclimate.com/github/kibiluzbad/ng2-wistia/badges/gpa.svg)](https://codeclimate.com/github/kibiluzbad/ng2-wistia)
 
+# ng2-wistia
 
 For live demo go to [https://ng2-wistia-demo.herokuapp.com/](https://ng2-wistia-demo.herokuapp.com/)
 
