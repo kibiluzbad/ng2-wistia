@@ -23,7 +23,7 @@
     "angular2",
     "wistia"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "@angular/common": "2.0.0-rc.5",
     "@angular/compiler": "2.0.0-rc.5",
     "@angular/core": "2.0.0-rc.5",
