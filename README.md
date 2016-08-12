@@ -56,8 +56,11 @@ const packages: any = {
 #### Usage
 
 ```html
-<wistia-player password="408f8874fe2e2ecdf849fa5ddbecfad822c6fdfd267b0681bbda4cdd97113c1d"></wistia-player>
+<wistia-player password="<your wistia api key>"></wistia-player>
 ```
+
+> Wistia api key must have access to create projects and upload media.
+
 
 ```typescript
 import { Component } from '@angular/core';
