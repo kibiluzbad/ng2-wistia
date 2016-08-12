@@ -22,6 +22,11 @@ npm test
 npm install ng2-file-upload --save 
 npm install https://github.com/kibiluzbad/ng2-wistia.git --save
 ```
+#### Add Bootstrap css
+
+```html
+<link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+```
 
 #### Setup system-config.ts
 
