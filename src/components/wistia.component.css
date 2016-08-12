@@ -1,0 +1,10 @@
+ul#videos li{
+ display: inline;
+}
+
+ul#videos li iframe {
+    height: 257px;
+    width: 320px;
+    border: 3px solid #ccc;
+}
+

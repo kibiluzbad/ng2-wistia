@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="alert alert-danger alert-dismissible" role="alert" *ngIf="showAlert">
+        <button type="button" class="close" data-dismiss="alert" (click)="showAlert = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Error!</strong> {{error}}
+    </div>
+    <div class="col-md-2 text-center" style="margin-bottom: 40px">
+        <label class="btn btn-primary btn-file" [ngClass]="{'disabled': uploader.isUploading}">
+  Upload <input accept="video/*" type="file" style="display:none" [disabled]="uploader.isUploading" ng2FileSelect [uploader]="uploader" multiple />
+ </label>
+    </div>
+    <div class="col-md-9" style="margin-bottom: 40px" *ngIf="uploader.isUploading">
+        <div>
+            Queue progress:
+            <div class="progress" style="">
+                <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': uploader.progress + '%' }"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12" *ngIf="urls">
+        <ul id="videos">
+            <li *ngFor="let url of urls">
+                <iframe allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen
+                    oallowfullscreen msallowfullscreen  [src]="url"></iframe>
+            </li>
+        </ul>
+    </div>
+</div>
