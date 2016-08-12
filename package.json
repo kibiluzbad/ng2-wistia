@@ -6,6 +6,7 @@
   "main": "ng2-wistia.ts",
   "author": "Leonardo Cardoso <kibiluzbad@gmail.com>",
   "scripts": {
+    "postinstall": "typings install",
     "clean": "./scripts/clean.sh",
     "lint": "tslint \"src/**/*.ts\"",
     "dev": "tsc --watch",
