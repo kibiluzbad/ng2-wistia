@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kibiluzbad/ng2-wistia.git"
+    "url": "git://github.com/kibiluzbad/ng2-wistia.git"
   },
   "keywords": [
     "ng2",
