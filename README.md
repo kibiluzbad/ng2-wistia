@@ -1,6 +1,7 @@
 # ng2-wistia
 
-For live demo go to [http://ng2-uploader.com](http://ng2-uploader.com).
+For live demo go to [https://ng2-wistia-demo.herokuapp.com/](https://ng2-wistia-demo.herokuapp.com/)
+Demo repo: [https://github.com/kibiluzbad/ng2-wistia-demo](https://github.com/kibiluzbad/ng2-wistia-demo)
 
 ## Angular2 Wistia Upload and Player
 
